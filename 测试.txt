@@ -1,0 +1,8 @@
+在△ABC中，BC>AC，  点D在BC上，且DC=AC，角ACB的平分线CF交AD于F，点E是AB的中点，连结EF.求证∶△ABD~△AEF.
+如图，点D、E在BC上，且FD//AB，FE//AC。求证∶△ABC~△FDE.
+如图10，四边形ABCD、DEFG都是正方形，连接AE、CG，AE与CG相交于点M，CG与AD相交于点N. 求证∶AE=CG；
+如图，四边形ABCD中，AD=CD，∠DAB=∠ACB=90°，过点D作DE⊥AC，垂足为F，DE与AB相交于点E.求证∠BAF=∠BCD
+如图，正方形ABCD，BE=BD,CE平行于BD，BE交CD于F，求证：DE=DF
+在等腰三角形ABC中，AB=AC,∠A=20°，在AB上取一点D，使AD=BC，求∠BDC
+正方形ABCD中，E、F为AD、DC的中点，连接BE、AF，相交于点P，连接PC，求证：PC=BC
+△ABC中，∠CBA=2∠CAB，∠CBA的角平分线BD与∠CAB的角平分线AD相交于点D，且BC=AD，求证：∠ACB=60°

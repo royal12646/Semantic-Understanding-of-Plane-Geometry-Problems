@@ -1,0 +1,17 @@
+1	3	ABC	Triangle
+5	6	BC	Line
+8	9	AC	Line
+11	11	D	Point
+13	14	BC	Line
+17	18	DC	Line
+20	21	AC	Line
+23	24	CF	Line
+27	30	∠ACB	Angle
+32	33	CF	Line
+35	36	AD	Line
+38	38	F	Point
+40	40	E	Point
+43	44	AB	Line
+46	47	EF	Line
+50	52	ABD	Triangle
+55	57	AEF	Triangle

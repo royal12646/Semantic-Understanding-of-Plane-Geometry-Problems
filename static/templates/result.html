@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!-- 声明文档类型为HTML5 -->
+<html lang="en"> <!-- 根元素，设置语言为英文 -->
+<head>
+    <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 兼容IE浏览器 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 响应式布局设置 -->
+    <title>Improved Layout</title> <!-- 设置网页标题 -->
+</head>
+<body> <!-- body元素，包含网页的所有内容 -->
+
+    <div class="container"> <!-- 容器类div，用于包含整个页面内容 -->
+        <!-- 顶部区域 -->
+        <div class="top"> <!-- 顶部区域的div -->
+            <div id="tableContainer"> <!-- 包含表格容器的div，通过id标识 -->
+                <section id="input_part"> <!-- 输入部分的section，通过id标识 -->
+                    <div class = "inputdiv"> <!-- 输入框的div -->
+                        <h3>题目:</h3> <!-- 题目标题 -->
+                        <input type="text" name="topic" id="topic" required > <!-- 文本输入框，用于输入题目 -->
+                        <!-- 输入框的宽度自适应脚本 -->
+                        <script>
+                            var minWidth=60;
+                            var maxWidth=200;
+                            document.querySelector("input").addEventListener("input",function(){
+                                this.style.width=minWidth+'px'; // 输入框宽度最小值
+                                this.style.width=((this.scrollWidth<maxWidth)?this.scrollWidth:maxWidth)+"px"; // 输入框宽度自适应
+                            });
+                        </script>
+                        <input type="submit" id="submit" value="提交" > <!-- 提交按钮 -->
+                        <button type="reset" id="reset" >重置</button> <!-- 重置按钮 -->
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- 底部左右区域 -->
+        <div class="bottom"> <!-- 底部区域的div -->
+            <!-- 左侧 -->
+            <div class="someMessage"> <!-- 左侧消息区域的div -->
+                <div id="question_processed"></div> <!-- 用于显示处理后的题目的div -->
+                <br>
+                <br>
+                <div id="graphData"></div> <!-- 用于显示图表数据的div -->
+            </div>
+            <div id="main" style="width: 100%;height: 700px;"></div> <!-- 主要内容区域的div，用于显示图表 -->
+        </div>
+    </div>
+    <!-- 引入ECharts图表库 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <!-- 引入jQuery库 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 引入样式表 -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- 引入图表处理的JavaScript文件 -->
+    <script src="/static/js/graph.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+[
+    {
+        "name": "shapelimit",
+        "source": "正方形",
+        "target": "ABCD"
+    },
+    {
+        "name": "equals",
+        "source": "BE",
+        "target": "BD"
+    },
+    {
+        "name": "parallel",
+        "source": "CE",
+        "target": "BD"
+    },
+    {
+        "name": "intersectPoint",
+        "source": "F",
+        "target": "BE"
+    },
+    {
+        "name": "intersectPoint",
+        "source": "F",
+        "target": "CD"
+    },
+    {
+        "name": "intersect",
+        "source": "BE",
+        "target": "CD"
+    },
+    {
+        "name": "equals",
+        "source": "DE",
+        "target": "DF"
+    },
+    {
+        "name": "constructs",
+        "source": "AB",
+        "target": "ABCD"
+    },
+    {
+        "name": "constructs",
+        "source": "BC",
+        "target": "ABCD"
+    },
+    {
+        "name": "constructs",
+        "source": "CD",
+        "target": "ABCD"
+    },
+    {
+        "name": "constructs",
+        "source": "AD",
+        "target": "ABCD"
+    },
+    {
+        "name": "constructs",
+        "source": "A",
+        "target": "AB"
+    },
+    {
+        "name": "constructs",
+        "source": "B",
+        "target": "AB"
+    },
+    {
+        "name": "constructs",
+        "source": "B",
+        "target": "BC"
+    },
+    {
+        "name": "constructs",
+        "source": "C",
+        "target": "BC"
+    },
+    {
+        "name": "constructs",
+        "source": "C",
+        "target": "CD"
+    },
+    {
+        "name": "constructs",
+        "source": "D",
+        "target": "CD"
+    },
+    {
+        "name": "constructs",
+        "source": "A",
+        "target": "AD"
+    },
+    {
+        "name": "constructs",
+        "source": "D",
+        "target": "AD"
+    },
+    {
+        "name": "constructs",
+        "source": "B",
+        "target": "BE"
+    },
+    {
+        "name": "constructs",
+        "source": "E",
+        "target": "BE"
+    },
+    {
+        "name": "constructs",
+        "source": "B",
+        "target": "BD"
+    },
+    {
+        "name": "constructs",
+        "source": "D",
+        "target": "BD"
+    },
+    {
+        "name": "constructs",
+        "source": "C",
+        "target": "CE"
+    },
+    {
+        "name": "constructs",
+        "source": "E",
+        "target": "CE"
+    },
+    {
+        "name": "constructs",
+        "source": "D",
+        "target": "DE"
+    },
+    {
+        "name": "constructs",
+        "source": "E",
+        "target": "DE"
+    },
+    {
+        "name": "constructs",
+        "source": "D",
+        "target": "DF"
+    },
+    {
+        "name": "constructs",
+        "source": "F",
+        "target": "DF"
+    }
+]

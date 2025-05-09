@@ -1,0 +1,87 @@
+[
+    {
+        "category": 0,
+        "des": "Shape_Limit",
+        "name": "正方形"
+    },
+    {
+        "category": 10,
+        "des": "Polygon",
+        "name": "ABCD"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "BE"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "BD"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "CE"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "CD"
+    },
+    {
+        "category": 1,
+        "des": "Point",
+        "name": "F"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "DE"
+    },
+    {
+        "category": 3,
+        "des": "Line",
+        "name": "DF"
+    },
+    {
+        "category": 4,
+        "des": "Line_Sep",
+        "name": "AB"
+    },
+    {
+        "category": 4,
+        "des": "Line_Sep",
+        "name": "BC"
+    },
+    {
+        "category": 4,
+        "des": "Line_Sep",
+        "name": "AD"
+    },
+    {
+        "category": 2,
+        "des": "Point_Sep",
+        "name": "A"
+    },
+    {
+        "category": 2,
+        "des": "Point_Sep",
+        "name": "B"
+    },
+    {
+        "category": 2,
+        "des": "Point_Sep",
+        "name": "C"
+    },
+    {
+        "category": 2,
+        "des": "Point_Sep",
+        "name": "D"
+    },
+    {
+        "category": 2,
+        "des": "Point_Sep",
+        "name": "E"
+    }
+]

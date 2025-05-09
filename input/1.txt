@@ -1,0 +1,1 @@
+D,E在BC上,FD平行AB,FE平行AC,△ABC~△FDE;

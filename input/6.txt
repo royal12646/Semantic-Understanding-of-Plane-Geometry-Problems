@@ -1,0 +1,1 @@
+正方形ABCD,E,F为AD,DC的中点,BE,AF,AF于点P,PC,PC=BC;

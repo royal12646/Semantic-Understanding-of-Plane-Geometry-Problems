@@ -1,0 +1,1 @@
+四边形ABCD,正方形DEFG,AE,CG,AE交CG于M,CG交AD于N,AE=CG;

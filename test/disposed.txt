@@ -1,0 +1,1 @@
+正方形ABCD,BE=BD,CE平行BD,BE交CD于F,DE=DF;
